@@ -1,0 +1,91 @@
+@media(max-width:575px) and (min-width:0px){
+.banner h1{
+    color:#fff
+}
+.banner-content .mobile {
+   
+    display: none;
+}
+header .view{
+        padding: 5px 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+}
+.banner {
+
+    text-align: center;
+    margin: auto;}
+    .banner-content{
+        min-height: 90vh;
+        padding-block-start: 30px;
+    }
+    .downloaded ul li {
+        font-size: 25px;
+        color: #fff;
+    }
+    .downloaded ul li span {
+        font-size: 25px;
+        font-weight: 600;
+        color: #fff;
+    }
+    
+.downloaded ul {
+    padding:30px;
+}
+.view{
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}
+.download{
+    padding: 5px 8px;
+    margin-left: 20px;
+}
+.price-table {
+    text-align: center;
+    border: 1px solid #dcd1d1;
+    margin: 0px 30px 20px;
+}
+.form{
+    height:-155px;
+    background: black;
+    padding: 40px 30px 20px;
+    width: 55%;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contact {
+    background-color: #ededed;
+    position: relative;
+    padding-bottom: 410px;
+    margin-top: 65px;
+}
+.contacts p {
+    color: #afafaf;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.double-device {
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+}
+.banner h4 {
+    color: #008ed6;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    margin-top: 52px;
+}
+header {
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 30px;
+}
+}
